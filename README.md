@@ -15,3 +15,7 @@ No quarto dia, o objetivo do desafio foi desenvolver um jogo de adivinhação, o
 
 Dia5:
 Para o dia 5, foi elaborada a lógica para uma lista de compras, com itens inseridos pelo usuário, separando nas categorias: frutas e legumes. O objetivo era introduzir o conceito de array e treinar loops com o while.
+
+Dia6:
+No penúltimo dia do desafio foi introduzido os conceitos de "indexOf" "includes" "splice", para visulizar index de listas e remover itens. Foi utilizada a mesma lista do dia 5 para o desenvolvimento. O usuário pode escolher entre adicionar, remover ou finalizar a lista. As duas últimas opções mostram a lista completa antes de executar. 
+Caso o usuário tente remover um item não existente, será exibida a mensagem que o item não foi localizado.

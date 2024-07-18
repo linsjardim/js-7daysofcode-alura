@@ -58,18 +58,25 @@ while (resposta != "finalizar") {
     if (listaDeFrutas.includes(removerItem)) {
       let indexLista = listaDeFrutas.indexOf(removerItem);
       listaDeFrutas.splice(indexLista, 1);
+      alert("O item foi removido da sua lista de compras!");
     } else if (listaDeLegumes.includes(removerItem)) {
       let indexLista = listaDeLegumes.indexOf(removerItem);
       listaDeLegumes.splice(indexLista, 1);
+      alert("O item foi removido da sua lista de compras!");
     } else if (listaDeCongelados.includes(removerItem)) {
       let indexLista = listaDeCongelados.indexOf(removerItem);
       listaDeCongelados.splice(indexLista, 1);
+      alert("O item foi removido da sua lista de compras!");
     } else if (listaDeLaticinios.includes(removerItem)) {
       let indexLista = listaDeLaticinios.indexOf(removerItem);
       listaDeLaticinios.splice(indexLista, 1);
+      alert("O item foi removido da sua lista de compras!");
     } else if (listaDeDoce.includes(removerItem)) {
       let indexLista = listaDeDoce.indexOf(removerItem);
       listaDeDoce.splice(indexLista, 1);
+      alert("O item foi removido da sua lista de compras!");
+    } else {
+      alert ("Hmmm.. Esse item não está em sua lista!")
     }
   }
 }
@@ -79,10 +86,10 @@ let fraseListaDeCompra =
   listaDeFrutas +
   " Lista de Legumes: " +
   listaDeLegumes +
-  " Lista de Laticínios " +
+  " Lista de Laticínios: " +
   listaDeLaticinios +
-  " Lista de Congelados " +
+  " Lista de Congelados: " +
   listaDeCongelados +
-  " Lista de Doces " +
+  " Lista de Doces: " +
   listaDeDoce;
 alert(fraseListaDeCompra);
