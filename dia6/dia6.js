@@ -86,7 +86,7 @@ let fraseListaDeCompra =
   listaDeFrutas +
   " Lista de Legumes: " +
   listaDeLegumes +
-  " Lista de Laticínios: " +
+  " Lista de Laticínios " +
   listaDeLaticinios +
   " Lista de Congelados: " +
   listaDeCongelados +

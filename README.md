@@ -19,3 +19,6 @@ Para o dia 5, foi elaborada a lógica para uma lista de compras, com itens inser
 Dia6:
 No penúltimo dia do desafio foi introduzido os conceitos de "indexOf" "includes" "splice", para visulizar index de listas e remover itens. Foi utilizada a mesma lista do dia 5 para o desenvolvimento. O usuário pode escolher entre adicionar, remover ou finalizar a lista. As duas últimas opções mostram a lista completa antes de executar. 
 Caso o usuário tente remover um item não existente, será exibida a mensagem que o item não foi localizado.
+
+Dia7:
+Para o último dia de desafio, foi elaborada uma calculadora utilizando os conceitos de "function" e "switch.O usuário poderá escolher entre as quatro operações: soma, subtração, divisão e multiplicação para fazer calcúlos simples.
